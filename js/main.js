@@ -20,3 +20,11 @@
         }
     });
 }
+
+{
+    const reset = document.getElementById('reset');
+
+    reset.addEventListener('click', () => {
+        btn.textContent = 'スタート'; 
+    });
+}

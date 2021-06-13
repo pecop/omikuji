@@ -18,11 +18,32 @@ body {
     user-select: none;
 }
 
-#btn:hover {
+#reset {
+    width: 100px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 50px;
+    color: #686161;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #d6d4d4;
+    user-select: none;
+}
+
+#btn:hover, #reset:hover {
     opacity: 0.9;
 }
 
 #btn:active {
     box-shadow: 0 5px 0 #d1483e;
+    margin-top: 35px;
+}
+
+#reset:active {
+    box-shadow: 0 3px 0 #d6d4d4;
     margin-top: 35px;
 }
